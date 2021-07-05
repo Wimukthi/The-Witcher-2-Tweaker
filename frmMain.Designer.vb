@@ -519,7 +519,7 @@ Partial Class frmMain
         Me.viewport.Name = "viewport"
         Me.viewport.Size = New System.Drawing.Size(146, 21)
         Me.viewport.TabIndex = 63
-        Me.ToolTips.SetToolTip(Me.viewport, "Select the Screen Resolution, When Entering a Custom Resolution" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Follow this Synt" & _
+        Me.ToolTips.SetToolTip(Me.viewport, "Select the Screen Resolution, When Entering a Custom Resolution" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Follow this Synt" &
         "ax or it wont work :  [Width][Space]x[Space][Height]")
         '
         'btnExportUser
@@ -529,7 +529,7 @@ Partial Class frmMain
         Me.btnExportUser.Size = New System.Drawing.Size(144, 22)
         Me.btnExportUser.TabIndex = 66
         Me.btnExportUser.Text = "Export to a Custom ini File"
-        Me.ToolTips.SetToolTip(Me.btnExportUser, "Allows you to Export the settings shown to a ini file," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "this way some one else us" & _
+        Me.ToolTips.SetToolTip(Me.btnExportUser, "Allows you to Export the settings shown to a ini file," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "this way some one else us" &
         "ing The Witcher 2 Tweaker can" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Benifit from your own custom settings." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         Me.btnExportUser.UseVisualStyleBackColor = True
         '
@@ -888,8 +888,8 @@ Partial Class frmMain
         Me.ShadowedLights.Name = "ShadowedLights"
         Me.ShadowedLights.Size = New System.Drawing.Size(146, 21)
         Me.ShadowedLights.TabIndex = 47
-        Me.ToolTips.SetToolTip(Me.ShadowedLights, "Number of Lights that can Cast Shadows, This setting has minimum effect on the Gr" & _
-        "aphics quality" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "but Results in a Massive drop in performance when Higher values " & _
+        Me.ToolTips.SetToolTip(Me.ShadowedLights, "Number of Lights that can Cast Shadows, This setting has minimum effect on the Gr" &
+        "aphics quality" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "but Results in a Massive drop in performance when Higher values " &
         "are used, use a low value instead")
         '
         'ShadowQuality
@@ -910,7 +910,7 @@ Partial Class frmMain
         Me.DanglesLimiter.Name = "DanglesLimiter"
         Me.DanglesLimiter.Size = New System.Drawing.Size(146, 21)
         Me.DanglesLimiter.TabIndex = 39
-        Me.ToolTips.SetToolTip(Me.DanglesLimiter, "Limits the Dangling objects [0 Allow all dangling objects 2 Only on the Player], " & _
+        Me.ToolTips.SetToolTip(Me.DanglesLimiter, "Limits the Dangling objects [0 Allow all dangling objects 2 Only on the Player], " &
         "Minimal performance Impact")
         '
         'AllowCutsceneDOF
@@ -921,7 +921,7 @@ Partial Class frmMain
         Me.AllowCutsceneDOF.Name = "AllowCutsceneDOF"
         Me.AllowCutsceneDOF.Size = New System.Drawing.Size(146, 21)
         Me.AllowCutsceneDOF.TabIndex = 35
-        Me.ToolTips.SetToolTip(Me.AllowCutsceneDOF, "Moderate Performance Impact, Turn this off if you can live without it" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0" & _
+        Me.ToolTips.SetToolTip(Me.AllowCutsceneDOF, "Moderate Performance Impact, Turn this off if you can live without it" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0" &
         " = No")
         '
         'AllowScatterDOF
@@ -945,7 +945,7 @@ Partial Class frmMain
         Me.AllowMotionBlur.Name = "AllowMotionBlur"
         Me.AllowMotionBlur.Size = New System.Drawing.Size(146, 21)
         Me.AllowMotionBlur.TabIndex = 27
-        Me.ToolTips.SetToolTip(Me.AllowMotionBlur, "Motion Blur Effects, Has a significan effect on performance, mostly while turning" & _
+        Me.ToolTips.SetToolTip(Me.AllowMotionBlur, "Motion Blur Effects, Has a significan effect on performance, mostly while turning" &
         ", " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Turn this of if you can live without it." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0 = No")
         '
         'AllowSSAO
@@ -958,7 +958,7 @@ Partial Class frmMain
         Me.AllowSSAO.Name = "AllowSSAO"
         Me.AllowSSAO.Size = New System.Drawing.Size(146, 21)
         Me.AllowSSAO.TabIndex = 23
-        Me.ToolTips.SetToolTip(Me.AllowSSAO, "Screen Space Ambient Occlusion, This setting has a significant performance impact" & _
+        Me.ToolTips.SetToolTip(Me.AllowSSAO, "Screen Space Ambient Occlusion, This setting has a significant performance impact" &
         "" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "yet the effect is very subtle, its best to turn it off" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0 = No")
         '
         'AllowRain
@@ -1031,7 +1031,7 @@ Partial Class frmMain
         Me.AllowAntialias.Name = "AllowAntialias"
         Me.AllowAntialias.Size = New System.Drawing.Size(146, 21)
         Me.AllowAntialias.TabIndex = 65
-        Me.ToolTips.SetToolTip(Me.AllowAntialias, "Antialiasing, this has a Moderate Performance Impact, but improves graphics qulai" & _
+        Me.ToolTips.SetToolTip(Me.AllowAntialias, "Antialiasing, this has a Moderate Performance Impact, but improves graphics qulai" &
         "ty Significantly, keep it enabled if its possible" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0 = No")
         '
         'AllowShafts
@@ -1062,7 +1062,7 @@ Partial Class frmMain
         Me.CharacterLodGameplayDownscale.Name = "CharacterLodGameplayDownscale"
         Me.CharacterLodGameplayDownscale.Size = New System.Drawing.Size(146, 21)
         Me.CharacterLodGameplayDownscale.TabIndex = 53
-        Me.ToolTips.SetToolTip(Me.CharacterLodGameplayDownscale, "Character Level of Deatail reduction during Game Play" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Minimal Performance Impact" & _
+        Me.ToolTips.SetToolTip(Me.CharacterLodGameplayDownscale, "Character Level of Deatail reduction during Game Play" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Minimal Performance Impact" &
         "")
         '
         'MeshDistanceScale
@@ -1286,7 +1286,7 @@ Partial Class frmMain
         Me.btnExportUber.Size = New System.Drawing.Size(144, 22)
         Me.btnExportUber.TabIndex = 64
         Me.btnExportUber.Text = "Export to a Custom ini File"
-        Me.ToolTips.SetToolTip(Me.btnExportUber, "Allows you to Export the settings shown to a ini file," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "this way some one else us" & _
+        Me.ToolTips.SetToolTip(Me.btnExportUber, "Allows you to Export the settings shown to a ini file," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "this way some one else us" &
         "ing The Witcher 2 Tweaker can" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Benifit from your own custom settings." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         Me.btnExportUber.UseVisualStyleBackColor = True
         '
@@ -1645,8 +1645,8 @@ Partial Class frmMain
         Me.uberShadowedLights.Name = "uberShadowedLights"
         Me.uberShadowedLights.Size = New System.Drawing.Size(146, 21)
         Me.uberShadowedLights.TabIndex = 47
-        Me.ToolTips.SetToolTip(Me.uberShadowedLights, "Number of Lights that can Cast Shadows, This setting has minimum effect on the Gr" & _
-        "aphics quality" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "but Results in a Massive drop in performance when Higher values " & _
+        Me.ToolTips.SetToolTip(Me.uberShadowedLights, "Number of Lights that can Cast Shadows, This setting has minimum effect on the Gr" &
+        "aphics quality" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "but Results in a Massive drop in performance when Higher values " &
         "are used, use a low value instead")
         '
         'uberShadowQuality
@@ -1667,7 +1667,7 @@ Partial Class frmMain
         Me.uberDanglesLimiter.Name = "uberDanglesLimiter"
         Me.uberDanglesLimiter.Size = New System.Drawing.Size(146, 21)
         Me.uberDanglesLimiter.TabIndex = 39
-        Me.ToolTips.SetToolTip(Me.uberDanglesLimiter, "Limits the Dangling objects [0 Allow all dangling objects 2 Only on the Player], " & _
+        Me.ToolTips.SetToolTip(Me.uberDanglesLimiter, "Limits the Dangling objects [0 Allow all dangling objects 2 Only on the Player], " &
         "Minimal performance Impact")
         '
         'uberAllowCutsceneDOF
@@ -1678,7 +1678,7 @@ Partial Class frmMain
         Me.uberAllowCutsceneDOF.Name = "uberAllowCutsceneDOF"
         Me.uberAllowCutsceneDOF.Size = New System.Drawing.Size(146, 21)
         Me.uberAllowCutsceneDOF.TabIndex = 35
-        Me.ToolTips.SetToolTip(Me.uberAllowCutsceneDOF, "Moderate Performance Impact, Turn this off if you can live without it" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0" & _
+        Me.ToolTips.SetToolTip(Me.uberAllowCutsceneDOF, "Moderate Performance Impact, Turn this off if you can live without it" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0" &
         " = No")
         '
         'uberAllowScatterDOF
@@ -1702,7 +1702,7 @@ Partial Class frmMain
         Me.uberAllowMotionBlur.Name = "uberAllowMotionBlur"
         Me.uberAllowMotionBlur.Size = New System.Drawing.Size(146, 21)
         Me.uberAllowMotionBlur.TabIndex = 27
-        Me.ToolTips.SetToolTip(Me.uberAllowMotionBlur, "Motion Blur Effects, Has a significan effect on performance, mostly while turning" & _
+        Me.ToolTips.SetToolTip(Me.uberAllowMotionBlur, "Motion Blur Effects, Has a significan effect on performance, mostly while turning" &
         ", " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Turn this of if you can live without it" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0 = No")
         '
         'uberAllowSSAO
@@ -1715,7 +1715,7 @@ Partial Class frmMain
         Me.uberAllowSSAO.Name = "uberAllowSSAO"
         Me.uberAllowSSAO.Size = New System.Drawing.Size(146, 21)
         Me.uberAllowSSAO.TabIndex = 23
-        Me.ToolTips.SetToolTip(Me.uberAllowSSAO, "Screen Space Ambient Occlusion, This setting has a significant performance impact" & _
+        Me.ToolTips.SetToolTip(Me.uberAllowSSAO, "Screen Space Ambient Occlusion, This setting has a significant performance impact" &
         "" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "yet the effect is very subtle, its best to turn it off" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0 = No")
         '
         'uberAllowRain
@@ -1788,7 +1788,7 @@ Partial Class frmMain
         Me.uberAllowAntialias.Name = "uberAllowAntialias"
         Me.uberAllowAntialias.Size = New System.Drawing.Size(146, 21)
         Me.uberAllowAntialias.TabIndex = 63
-        Me.ToolTips.SetToolTip(Me.uberAllowAntialias, "Antialiasing, this has a Moderate Performance Impact, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "but improves graphics qul" & _
+        Me.ToolTips.SetToolTip(Me.uberAllowAntialias, "Antialiasing, this has a Moderate Performance Impact, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "but improves graphics qul" &
         "aity Significantly, keep it enabled if its possible" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0 = No")
         '
         'uberAllowShafts
@@ -1819,7 +1819,7 @@ Partial Class frmMain
         Me.uberCharacterLodGameplayDownscale.Name = "uberCharacterLodGameplayDownscale"
         Me.uberCharacterLodGameplayDownscale.Size = New System.Drawing.Size(146, 21)
         Me.uberCharacterLodGameplayDownscale.TabIndex = 53
-        Me.ToolTips.SetToolTip(Me.uberCharacterLodGameplayDownscale, "Character Level of Deatail reduction during Game Play" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Minimal Performance Impact" & _
+        Me.ToolTips.SetToolTip(Me.uberCharacterLodGameplayDownscale, "Character Level of Deatail reduction during Game Play" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Minimal Performance Impact" &
         "")
         '
         'uberMeshDistanceScale
@@ -2044,7 +2044,7 @@ Partial Class frmMain
         Me.btnExportHigh.Size = New System.Drawing.Size(144, 22)
         Me.btnExportHigh.TabIndex = 64
         Me.btnExportHigh.Text = "Export to a Custom ini File"
-        Me.ToolTips.SetToolTip(Me.btnExportHigh, "Allows you to Export the settings shown to a ini file," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "this way some one else us" & _
+        Me.ToolTips.SetToolTip(Me.btnExportHigh, "Allows you to Export the settings shown to a ini file," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "this way some one else us" &
         "ing The Witcher 2 Tweaker can" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Benifit from your own custom settings." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         Me.btnExportHigh.UseVisualStyleBackColor = True
         '
@@ -2403,8 +2403,8 @@ Partial Class frmMain
         Me.highShadowedLights.Name = "highShadowedLights"
         Me.highShadowedLights.Size = New System.Drawing.Size(146, 21)
         Me.highShadowedLights.TabIndex = 47
-        Me.ToolTips.SetToolTip(Me.highShadowedLights, "Number of Lights that can Cast Shadows, This setting has minimum effect on the Gr" & _
-        "aphics quality" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "but Results in a Massive drop in performance when Higher values " & _
+        Me.ToolTips.SetToolTip(Me.highShadowedLights, "Number of Lights that can Cast Shadows, This setting has minimum effect on the Gr" &
+        "aphics quality" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "but Results in a Massive drop in performance when Higher values " &
         "are used, use a low value instead")
         '
         'highShadowQuality
@@ -2425,7 +2425,7 @@ Partial Class frmMain
         Me.highDanglesLimiter.Name = "highDanglesLimiter"
         Me.highDanglesLimiter.Size = New System.Drawing.Size(146, 21)
         Me.highDanglesLimiter.TabIndex = 39
-        Me.ToolTips.SetToolTip(Me.highDanglesLimiter, "Limits the Dangling objects [0 Allow all dangling objects 2 Only on the Player], " & _
+        Me.ToolTips.SetToolTip(Me.highDanglesLimiter, "Limits the Dangling objects [0 Allow all dangling objects 2 Only on the Player], " &
         "Minimal performance Impact")
         '
         'highAllowCutsceneDOF
@@ -2436,7 +2436,7 @@ Partial Class frmMain
         Me.highAllowCutsceneDOF.Name = "highAllowCutsceneDOF"
         Me.highAllowCutsceneDOF.Size = New System.Drawing.Size(146, 21)
         Me.highAllowCutsceneDOF.TabIndex = 35
-        Me.ToolTips.SetToolTip(Me.highAllowCutsceneDOF, "Moderate Performance Impact, Turn this off if you can live without it" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0" & _
+        Me.ToolTips.SetToolTip(Me.highAllowCutsceneDOF, "Moderate Performance Impact, Turn this off if you can live without it" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0" &
         " = No")
         '
         'highAllowScatterDOF
@@ -2460,7 +2460,7 @@ Partial Class frmMain
         Me.highAllowMotionBlur.Name = "highAllowMotionBlur"
         Me.highAllowMotionBlur.Size = New System.Drawing.Size(146, 21)
         Me.highAllowMotionBlur.TabIndex = 27
-        Me.ToolTips.SetToolTip(Me.highAllowMotionBlur, "Motion Blur Effects, Has a significan effect on performance, mostly while turning" & _
+        Me.ToolTips.SetToolTip(Me.highAllowMotionBlur, "Motion Blur Effects, Has a significan effect on performance, mostly while turning" &
         ", " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Turn this of if you can live without it" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0 = No")
         '
         'highAllowSSAO
@@ -2473,7 +2473,7 @@ Partial Class frmMain
         Me.highAllowSSAO.Name = "highAllowSSAO"
         Me.highAllowSSAO.Size = New System.Drawing.Size(146, 21)
         Me.highAllowSSAO.TabIndex = 23
-        Me.ToolTips.SetToolTip(Me.highAllowSSAO, "Screen Space Ambient Occlusion, This setting has a significant performance impact" & _
+        Me.ToolTips.SetToolTip(Me.highAllowSSAO, "Screen Space Ambient Occlusion, This setting has a significant performance impact" &
         "" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "yet the effect is very subtle, its best to turn it off" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0 = No")
         '
         'highAllowRain
@@ -2546,7 +2546,7 @@ Partial Class frmMain
         Me.highAllowAntialias.Name = "highAllowAntialias"
         Me.highAllowAntialias.Size = New System.Drawing.Size(146, 21)
         Me.highAllowAntialias.TabIndex = 63
-        Me.ToolTips.SetToolTip(Me.highAllowAntialias, "Antialiasing, this has a Moderate Performance Impact, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "but improves graphics qul" & _
+        Me.ToolTips.SetToolTip(Me.highAllowAntialias, "Antialiasing, this has a Moderate Performance Impact, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "but improves graphics qul" &
         "aity Significantly, keep it enabled if its possible" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0 = No")
         '
         'highAllowShafts
@@ -2577,7 +2577,7 @@ Partial Class frmMain
         Me.highCharacterLodGameplayDownscale.Name = "highCharacterLodGameplayDownscale"
         Me.highCharacterLodGameplayDownscale.Size = New System.Drawing.Size(146, 21)
         Me.highCharacterLodGameplayDownscale.TabIndex = 53
-        Me.ToolTips.SetToolTip(Me.highCharacterLodGameplayDownscale, "Character Level of Deatail reduction during Game Play" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Minimal Performance Impact" & _
+        Me.ToolTips.SetToolTip(Me.highCharacterLodGameplayDownscale, "Character Level of Deatail reduction during Game Play" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Minimal Performance Impact" &
         "")
         '
         'highMeshDistanceScale
@@ -2801,7 +2801,7 @@ Partial Class frmMain
         Me.btnExportMedium.Size = New System.Drawing.Size(144, 22)
         Me.btnExportMedium.TabIndex = 64
         Me.btnExportMedium.Text = "Export to a Custom ini File"
-        Me.ToolTips.SetToolTip(Me.btnExportMedium, "Allows you to Export the settings shown to a ini file," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "this way some one else us" & _
+        Me.ToolTips.SetToolTip(Me.btnExportMedium, "Allows you to Export the settings shown to a ini file," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "this way some one else us" &
         "ing The Witcher 2 Tweaker can" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Benifit from your own custom settings." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         Me.btnExportMedium.UseVisualStyleBackColor = True
         '
@@ -3160,8 +3160,8 @@ Partial Class frmMain
         Me.mediumShadowedLights.Name = "mediumShadowedLights"
         Me.mediumShadowedLights.Size = New System.Drawing.Size(146, 21)
         Me.mediumShadowedLights.TabIndex = 47
-        Me.ToolTips.SetToolTip(Me.mediumShadowedLights, "Number of Lights that can Cast Shadows, This setting has minimum effect on the Gr" & _
-        "aphics quality" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "but Results in a Massive drop in performance when Higher values " & _
+        Me.ToolTips.SetToolTip(Me.mediumShadowedLights, "Number of Lights that can Cast Shadows, This setting has minimum effect on the Gr" &
+        "aphics quality" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "but Results in a Massive drop in performance when Higher values " &
         "are used, use a low value instead")
         '
         'mediumShadowQuality
@@ -3182,7 +3182,7 @@ Partial Class frmMain
         Me.mediumDanglesLimiter.Name = "mediumDanglesLimiter"
         Me.mediumDanglesLimiter.Size = New System.Drawing.Size(146, 21)
         Me.mediumDanglesLimiter.TabIndex = 39
-        Me.ToolTips.SetToolTip(Me.mediumDanglesLimiter, "Limits the Dangling objects [0 Allow all dangling objects 2 Only on the Player], " & _
+        Me.ToolTips.SetToolTip(Me.mediumDanglesLimiter, "Limits the Dangling objects [0 Allow all dangling objects 2 Only on the Player], " &
         "Minimal performance Impact")
         '
         'mediumAllowCutsceneDOF
@@ -3193,7 +3193,7 @@ Partial Class frmMain
         Me.mediumAllowCutsceneDOF.Name = "mediumAllowCutsceneDOF"
         Me.mediumAllowCutsceneDOF.Size = New System.Drawing.Size(146, 21)
         Me.mediumAllowCutsceneDOF.TabIndex = 35
-        Me.ToolTips.SetToolTip(Me.mediumAllowCutsceneDOF, "Moderate Performance Impact, Turn this off if you can live without it" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0" & _
+        Me.ToolTips.SetToolTip(Me.mediumAllowCutsceneDOF, "Moderate Performance Impact, Turn this off if you can live without it" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0" &
         " = No")
         '
         'mediumAllowScatterDOF
@@ -3217,7 +3217,7 @@ Partial Class frmMain
         Me.mediumAllowMotionBlur.Name = "mediumAllowMotionBlur"
         Me.mediumAllowMotionBlur.Size = New System.Drawing.Size(146, 21)
         Me.mediumAllowMotionBlur.TabIndex = 27
-        Me.ToolTips.SetToolTip(Me.mediumAllowMotionBlur, "Motion Blur Effects, Has a significan effect on performance, mostly while turning" & _
+        Me.ToolTips.SetToolTip(Me.mediumAllowMotionBlur, "Motion Blur Effects, Has a significan effect on performance, mostly while turning" &
         ", " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Turn this of if you can live without it" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0 = No")
         '
         'mediumAllowSSAO
@@ -3230,7 +3230,7 @@ Partial Class frmMain
         Me.mediumAllowSSAO.Name = "mediumAllowSSAO"
         Me.mediumAllowSSAO.Size = New System.Drawing.Size(146, 21)
         Me.mediumAllowSSAO.TabIndex = 23
-        Me.ToolTips.SetToolTip(Me.mediumAllowSSAO, "Screen Space Ambient Occlusion, This setting has a significant performance impact" & _
+        Me.ToolTips.SetToolTip(Me.mediumAllowSSAO, "Screen Space Ambient Occlusion, This setting has a significant performance impact" &
         "" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "yet the effect is very subtle, its best to turn it off" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0 = No")
         '
         'mediumAllowRain
@@ -3303,7 +3303,7 @@ Partial Class frmMain
         Me.mediumAllowAntialias.Name = "mediumAllowAntialias"
         Me.mediumAllowAntialias.Size = New System.Drawing.Size(146, 21)
         Me.mediumAllowAntialias.TabIndex = 63
-        Me.ToolTips.SetToolTip(Me.mediumAllowAntialias, "Antialiasing, this has a Moderate Performance Impact, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "but improves graphics qul" & _
+        Me.ToolTips.SetToolTip(Me.mediumAllowAntialias, "Antialiasing, this has a Moderate Performance Impact, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "but improves graphics qul" &
         "aity Significantly, keep it enabled if its possible" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0 = No")
         '
         'mediumAllowShafts
@@ -3334,7 +3334,7 @@ Partial Class frmMain
         Me.mediumCharacterLodGameplayDownscale.Name = "mediumCharacterLodGameplayDownscale"
         Me.mediumCharacterLodGameplayDownscale.Size = New System.Drawing.Size(146, 21)
         Me.mediumCharacterLodGameplayDownscale.TabIndex = 53
-        Me.ToolTips.SetToolTip(Me.mediumCharacterLodGameplayDownscale, "Character Level of Deatail reduction during Game Play" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Minimal Performance Impact" & _
+        Me.ToolTips.SetToolTip(Me.mediumCharacterLodGameplayDownscale, "Character Level of Deatail reduction during Game Play" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Minimal Performance Impact" &
         "")
         '
         'mediumMeshDistanceScale
@@ -3558,7 +3558,7 @@ Partial Class frmMain
         Me.btnExportlow.Size = New System.Drawing.Size(144, 22)
         Me.btnExportlow.TabIndex = 64
         Me.btnExportlow.Text = "Export to a Custom ini File"
-        Me.ToolTips.SetToolTip(Me.btnExportlow, "Allows you to Export the settings shown to a ini file," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "this way some one else us" & _
+        Me.ToolTips.SetToolTip(Me.btnExportlow, "Allows you to Export the settings shown to a ini file," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "this way some one else us" &
         "ing The Witcher 2 Tweaker can" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Benifit from your own custom settings." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         Me.btnExportlow.UseVisualStyleBackColor = True
         '
@@ -3917,8 +3917,8 @@ Partial Class frmMain
         Me.lowShadowedLights.Name = "lowShadowedLights"
         Me.lowShadowedLights.Size = New System.Drawing.Size(146, 21)
         Me.lowShadowedLights.TabIndex = 47
-        Me.ToolTips.SetToolTip(Me.lowShadowedLights, "Number of Lights that can Cast Shadows, This setting has minimum effect on the Gr" & _
-        "aphics quality" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "but Results in a Massive drop in performance when Higher values " & _
+        Me.ToolTips.SetToolTip(Me.lowShadowedLights, "Number of Lights that can Cast Shadows, This setting has minimum effect on the Gr" &
+        "aphics quality" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "but Results in a Massive drop in performance when Higher values " &
         "are used, use a low value instead")
         '
         'lowShadowQuality
@@ -3939,7 +3939,7 @@ Partial Class frmMain
         Me.lowDanglesLimiter.Name = "lowDanglesLimiter"
         Me.lowDanglesLimiter.Size = New System.Drawing.Size(146, 21)
         Me.lowDanglesLimiter.TabIndex = 39
-        Me.ToolTips.SetToolTip(Me.lowDanglesLimiter, "Limits the Dangling objects [0 Allow all dangling objects 2 Only on the Player], " & _
+        Me.ToolTips.SetToolTip(Me.lowDanglesLimiter, "Limits the Dangling objects [0 Allow all dangling objects 2 Only on the Player], " &
         "Minimal performance Impact")
         '
         'lowAllowCutsceneDOF
@@ -3950,7 +3950,7 @@ Partial Class frmMain
         Me.lowAllowCutsceneDOF.Name = "lowAllowCutsceneDOF"
         Me.lowAllowCutsceneDOF.Size = New System.Drawing.Size(146, 21)
         Me.lowAllowCutsceneDOF.TabIndex = 35
-        Me.ToolTips.SetToolTip(Me.lowAllowCutsceneDOF, "Moderate Performance Impact, Turn this off if you can live without it" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0" & _
+        Me.ToolTips.SetToolTip(Me.lowAllowCutsceneDOF, "Moderate Performance Impact, Turn this off if you can live without it" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0" &
         " = No")
         '
         'lowAllowScatterDOF
@@ -3974,7 +3974,7 @@ Partial Class frmMain
         Me.lowAllowMotionBlur.Name = "lowAllowMotionBlur"
         Me.lowAllowMotionBlur.Size = New System.Drawing.Size(146, 21)
         Me.lowAllowMotionBlur.TabIndex = 27
-        Me.ToolTips.SetToolTip(Me.lowAllowMotionBlur, "Motion Blur Effects, Has a significan effect on performance, mostly while turning" & _
+        Me.ToolTips.SetToolTip(Me.lowAllowMotionBlur, "Motion Blur Effects, Has a significan effect on performance, mostly while turning" &
         ", " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Turn this of if you can live without it" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0 = No")
         '
         'lowAllowSSAO
@@ -3987,7 +3987,7 @@ Partial Class frmMain
         Me.lowAllowSSAO.Name = "lowAllowSSAO"
         Me.lowAllowSSAO.Size = New System.Drawing.Size(146, 21)
         Me.lowAllowSSAO.TabIndex = 23
-        Me.ToolTips.SetToolTip(Me.lowAllowSSAO, "Screen Space Ambient Occlusion, This setting has a significant performance impact" & _
+        Me.ToolTips.SetToolTip(Me.lowAllowSSAO, "Screen Space Ambient Occlusion, This setting has a significant performance impact" &
         "" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "yet the effect is very subtle, its best to turn it off" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0 = No")
         '
         'lowAllowRain
@@ -4060,7 +4060,7 @@ Partial Class frmMain
         Me.lowAllowAntialias.Name = "lowAllowAntialias"
         Me.lowAllowAntialias.Size = New System.Drawing.Size(146, 21)
         Me.lowAllowAntialias.TabIndex = 63
-        Me.ToolTips.SetToolTip(Me.lowAllowAntialias, "Antialiasing, this has a Moderate Performance Impact, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "but improves graphics qul" & _
+        Me.ToolTips.SetToolTip(Me.lowAllowAntialias, "Antialiasing, this has a Moderate Performance Impact, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "but improves graphics qul" &
         "aity Significantly, keep it enabled if its possible" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "1 = Yes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "0 = No")
         '
         'lowAllowShafts
@@ -4091,7 +4091,7 @@ Partial Class frmMain
         Me.lowCharacterLodGameplayDownscale.Name = "lowCharacterLodGameplayDownscale"
         Me.lowCharacterLodGameplayDownscale.Size = New System.Drawing.Size(146, 21)
         Me.lowCharacterLodGameplayDownscale.TabIndex = 53
-        Me.ToolTips.SetToolTip(Me.lowCharacterLodGameplayDownscale, "Character Level of Deatail reduction during Game Play" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Minimal Performance Impact" & _
+        Me.ToolTips.SetToolTip(Me.lowCharacterLodGameplayDownscale, "Character Level of Deatail reduction during Game Play" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Minimal Performance Impact" &
         "")
         '
         'lowMeshDistanceScale

@@ -192,28 +192,28 @@ Minimal Performance impact, Always keep it Disabled for Maxmum Graphics Quality
   <data name="btnSetLow.ToolTip" xml:space="preserve">
     <value>Pressing this will Transfer the settings on PCLow.ini to user.ini, 
 effectively making the low Profile Active, But this is
-not How the built in configuration tool do it. thus making
+not How the built in configuration tool does it. thus making
 this function incompatible with it.
 </value>
   </data>
   <data name="btnSetMedium.ToolTip" xml:space="preserve">
     <value>Pressing this will Transfer the settings on PCMedium.ini to user.ini, 
 effectively making the Medium Profile Active, But this is
-not How the built in configuration tool do it. thus making
+not How the built in configuration tool does it. thus making
 this function incompatible with it.
 </value>
   </data>
   <data name="btnSetHigh.ToolTip" xml:space="preserve">
     <value>Pressing this will Transfer the settings on PCHigh.ini to user.ini, 
 effectively making the High Profile Active, But this is
-not How the built in configuration tool do it. thus making
+not How the built in configuration tool does it. thus making
 this function incompatible with it.
 </value>
   </data>
   <data name="btnSetUber.ToolTip" xml:space="preserve">
     <value>Pressing this will Transfer the settings on PCUber.ini to user.ini, 
 effectively making the Ultra Profile Active, But this is
-not How the built in configuration tool do it. thus making
+not How the built in configuration tool does it. thus making
 this function incompatible with it.
 </value>
   </data>
